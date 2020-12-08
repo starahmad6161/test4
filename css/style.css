@@ -1,0 +1,56 @@
+
+.btn
+{
+    border-radius: .7rem;
+}
+.navbar
+{
+    background-color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link
+{
+    color: #222;
+    font-weight: 500;
+    transition: .2s;
+}
+.navbar-light .navbar-nav .nav-link:hover
+{
+    color: #490bff;
+}
+.second-btn
+{
+    color: #490bff;
+    border: 1px solid #490bff;
+    background-color: #fff;
+    transition: .2s;
+}
+.second-btn:hover
+{
+    color: #fff;
+    background-color: #490bff;
+}
+.main-bg
+{
+    background-color: #490bff;
+}
+.dropdown-toggle::after
+{
+    content: "\f078";
+    color: #490bff;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    border: none;
+    vertical-align: middle;
+}
+
+@media(max-width: 1131px) {
+    .navbar-light .navbar-nav .nav-link
+    {
+        font-size: .9rem;
+    }
+    .nav-btns .btn
+    {
+        font-size: .8rem;
+    }
+}
